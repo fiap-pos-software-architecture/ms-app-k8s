@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: NOME DA IMAGEM DO REPOSITORIO DO DOCKERHUB AQUI
+        image: guilhermelimasoares9/hackaton-ms-app
         ports:
         - containerPort: 3000
         envFrom:
